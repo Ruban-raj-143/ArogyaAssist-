@@ -1,0 +1,99 @@
+{
+  "hospitals": [
+    {
+      "id": 1,
+      "name": "Apollo Hospital",
+      "address": "21, Greams Lane, Off Greams Road, Chennai - 600006",
+      "phone": "+91-44-28293333",
+      "rating": 4.5,
+      "specialties": ["Cardiology", "Neurology", "Orthopedics", "Oncology"],
+      "emergency": true,
+      "timing": "24/7"
+    },
+    {
+      "id": 2,
+      "name": "Fortis Hospital",
+      "address": "154, Sector 44, Gurugram, Haryana - 122002",
+      "phone": "+91-124-4962200",
+      "rating": 4.3,
+      "specialties": ["Cardiac Care", "Orthopedics", "Gastroenterology"],
+      "emergency": true,
+      "timing": "24/7"
+    },
+    {
+      "id": 3,
+      "name": "AIIMS Delhi",
+      "address": "Ansari Nagar East, New Delhi - 110029",
+      "phone": "+91-11-26588500",
+      "rating": 4.8,
+      "specialties": ["All Specialties"],
+      "emergency": true,
+      "timing": "24/7"
+    }
+  ],
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. Priya Sharma",
+      "specialty": "General Physician",
+      "qualification": "MBBS, MD",
+      "hospital_id": 1,
+      "experience": 15,
+      "fee": 500,
+      "timing": "9:00 AM - 1:00 PM",
+      "rating": 4.7,
+      "languages": ["English", "Hindi", "Tamil"]
+    },
+    {
+      "id": 2,
+      "name": "Dr. Rajesh Kumar",
+      "specialty": "Cardiologist",
+      "qualification": "MBBS, DM Cardiology",
+      "hospital_id": 2,
+      "experience": 20,
+      "fee": 1000,
+      "timing": "2:00 PM - 6:00 PM",
+      "rating": 4.9,
+      "languages": ["English", "Hindi"]
+    },
+    {
+      "id": 3,
+      "name": "Dr. Lakshmi Venkat",
+      "specialty": "Dermatologist",
+      "qualification": "MBBS, MD Dermatology",
+      "hospital_id": 1,
+      "experience": 12,
+      "fee": 700,
+      "timing": "10:00 AM - 4:00 PM",
+      "rating": 4.6,
+      "languages": ["English", "Tamil"]
+    },
+    {
+      "id": 4,
+      "name": "Dr. Amit Patel",
+      "specialty": "Orthopedic",
+      "qualification": "MBBS, MS Orthopedics",
+      "hospital_id": 3,
+      "experience": 18,
+      "fee": 800,
+      "timing": "11:00 AM - 5:00 PM",
+      "rating": 4.8,
+      "languages": ["English", "Hindi", "Gujarati"]
+    }
+  ],
+  "specialties": [
+    {"id": 1, "name": "General Physician", "icon": "stethoscope"},
+    {"id": 2, "name": "Cardiologist", "icon": "heart"},
+    {"id": 3, "name": "Dermatologist", "icon": "skin"},
+    {"id": 4, "name": "Orthopedic", "icon": "bone"},
+    {"id": 5, "name": "Pediatrician", "icon": "baby"},
+    {"id": 6, "name": "Gynecologist", "icon": "female"},
+    {"id": 7, "name": "ENT Specialist", "icon": "ear"},
+    {"id": 8, "name": "Dentist", "icon": "tooth"}
+  ],
+  "languages": [
+    {"code": "en", "name": "English"},
+    {"code": "ta", "name": "Tamil"},
+    {"code": "hi", "name": "Hindi"}
+  ]
+}
